@@ -334,7 +334,6 @@ client.on('message', message => {
         let helpEmbed = new Discord.RichEmbed()
         .setTitle('**أوامر عامة...**')
         .addField('1avatar', "افاتار الشخص المطلوب")
-        .addField('1gif', 'البحث عن جيف انت تطلبه')
         .addField('1ping', 'معرفة ping البوت')
       message.channel.send(helpEmbed);
     }
